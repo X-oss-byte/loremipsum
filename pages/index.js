@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image src={heroImage} style={{maxWidth: '100%', height: 'auto'}} sizes="100vw" loading="eager" fetchpriority="high"/>
+        <Image src={heroImage} style={{maxWidth: '100%', height: 'auto'}} sizes="100vw" loading="eager"/>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
