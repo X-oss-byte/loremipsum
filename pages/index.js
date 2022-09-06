@@ -13,7 +13,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image src={heroImage} style={{maxWidth: '100%', height: 'auto'}} sizes="100vw" loading="eager"/>
+        <Image src={heroImage} style={{maxWidth: '100%', height: 'auto'}} sizes="(min-width: 75em) 33vw,
+              (min-width: 48em) 50vw,
+              100vw" />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
